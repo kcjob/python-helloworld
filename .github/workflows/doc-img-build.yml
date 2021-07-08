@@ -20,7 +20,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: python-helloworld
-    - tag: latest
+    #- name: python-helloworld
+    #- tag: latest
       run: docker build . --file Dockerfile -t python-helloworld
 
